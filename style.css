@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(184, 184, 184);
+    color: #b8b8b8;
 }
 
 h1 {
@@ -32,3 +32,19 @@ body {
     min-height: 100%;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    background-color: #301111;
+    color: #b8b8b8;
+    text-align: center;
+    display: inline-block;
+    padding: 14px 25px;
+}
+
+a:hover, a:active {
+    background-color: #5e2b2b;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
